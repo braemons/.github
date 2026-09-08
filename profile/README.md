@@ -1,6 +1,6 @@
 # braemons
 
-**Daemons for brain research.** A behavioural rig, decomposed: one small Linux
+**[Daemons](https://en.wikipedia.org/wiki/Daemon_(computing)) for brain research.** A behavioural rig, decomposed: one small Linux
 service per job, each owning its hardware, each reachable over the network,
 combined into an experiment by triggers rather than by a shared codebase.
 
