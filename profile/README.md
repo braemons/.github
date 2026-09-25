@@ -1,15 +1,12 @@
-<table>
-  <tr>
-    <td valign="top" width="180">
-      <img src="braemons-logo.png" alt="Braemons Logo" width="160">
-    </td>
-    <td valign="top">
-      <strong><a href="https://en.wikipedia.org/wiki/Daemon_(computing)">Daemons</a> for brain research.</strong><br>
-      A behavioural rig, decomposed: one small service per job, each owning its
-      hardware, coupled to the others by trigger edges and a strongly-typed inter-daemon protocol.
-    </td>
-  </tr>
-</table>
+**[Daemons](https://en.wikipedia.org/wiki/Daemon_(computing)) for brain research.**
+
+A behavioural rig, decomposed: one small service per job, each owning its
+hardware, coupled to the others by trigger edges and a strongly-typed inter-daemon protocol.
+
+Why: an experiment needs dedicated hardware and software that does what it
+is supposed to do and nothing else. Not a desktop
+that checks for Windows updates and new printers mid-session, and breaks after
+an automatic update.
 
 > **Alpha.** Under active development, not validated for data collection. Each
 > README says plainly what is real and what is not.
