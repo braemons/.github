@@ -1,8 +1,15 @@
-![Braemons Logo](braemons-logo.png)
-
-**[Daemons](https://en.wikipedia.org/wiki/Daemon_(computing)) for brain research.**
-A behavioural rig, decomposed: one small service per job, each owning its
-hardware, coupled to the others by trigger edges and a strongly-typed inter-daemon protocol.
+<table>
+  <tr>
+    <td valign="top" width="180">
+      <img src="braemons-logo.png" alt="Braemons Logo" width="160">
+    </td>
+    <td valign="top">
+      <strong><a href="https://en.wikipedia.org/wiki/Daemon_(computing)">Daemons</a> for brain research.</strong><br>
+      A behavioural rig, decomposed: one small service per job, each owning its
+      hardware, coupled to the others by trigger edges and a strongly-typed inter-daemon protocol.
+    </td>
+  </tr>
+</table>
 
 > **Alpha.** Under active development, not validated for data collection. Each
 > README says plainly what is real and what is not.
@@ -20,4 +27,3 @@ What they have in common:
 - **Built-in monitoring via a browser.** All braemons come with a web interface, and all can be combined into one console.
 - **Flexibly combined and distributed.** They do not depend on each other and may optionally run on different machines.
 - **Ordinary Unix daemons.** A systemd unit, a config file, logs in the journal, a package that installs it, on a Raspberry Pi, an amd64 desktop, or a laptop.
-
