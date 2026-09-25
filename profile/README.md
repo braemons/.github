@@ -23,7 +23,7 @@ What they have in common:
 
 - **Reliable timing and trigger-driven.** Configure a daemon ahead of time (before a trial or even before the experiment); it then acts on trigger edges. Timing-critical parts are running on dedicated hardware.
 - **Integrating with other hardware.**: State changes are TTL-based, which can be captured by data acqusition systems and integrated into other ecosystemns such as [Bpods](https://sanworks.github.io/Bpod_Wiki/).
-- **Integrating with other software.** Braemons can be controlled via Python, MATLAB or Bonsai (.NET) clients through via binary [Protobuf](protobuf.dev)-based protocol.
+- **Integrating with other software.** Braemons can be controlled via Python, MATLAB or Bonsai (.NET) clients through a binary [Protobuf](protobuf.dev)-based protocol.
 - **Built-in monitoring via a browser.** All braemons come with a web interface, and all can be combined into one console.
 - **Flexibly combined and distributed.** They do not depend on each other and may optionally run on different machines.
 - **Ordinary Unix daemons.** A systemd unit, a config file, logs in the journal, a package that installs it, on a Raspberry Pi, an amd64 desktop, or a laptop.
