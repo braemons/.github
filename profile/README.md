@@ -11,8 +11,6 @@ hardware, coupled to the others by trigger edges and a strongly-typed inter-daem
 - **[statemachined](https://github.com/braemons/statemachined)**: within-trial state machine, running on a microcontroller. Times the trial and names its outcome.
 - **[mousewheeld](https://github.com/braemons/mousewheeld)** — rotary encoder-based input device
 - **[triald](https://github.com/braemons/triald)** — trial control. Picks what runs next and records the session; the rule is a Python class.
-- **[console](https://github.com/braemons/console)** — one page for a rig, composed from the daemons' own web panels.
-- **[packages](https://github.com/braemons/packages)** — signed apt archive, so rigs upgrade in place.
 
 What they have in common:
 
